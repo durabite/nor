@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$rojo: #D32531;
+$gris-claro: #EFEFF2;
+* {
+    font-family: 'Rubik', sans-serif;
+}
+#header-rs {
+    padding: 20px 0;
+    border-bottom: 1px solid $gris-claro;
+    a {
+        font-size: 1rem;
+        color: black;
+        text-decoration: none;
+        padding: 0 1.25rem;
+        font-weight: bold;
+        span {
+            font-size: 1.2rem;
+        }
+        &:hover {
+            color: $rojo;
+        }
+    }
+    button {
+        background-color: $rojo;
+        border-radius: 3px;
+        padding: 0.25rem 1.5rem;
+        color: white;
+        border: none;
+        font-weight: bold;
+    }
+}
