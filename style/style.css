@@ -3,14 +3,19 @@
   font-family: 'Rubik', sans-serif;
 }
 
+body {
+  background-image: url("../image/bg-dots.svg");
+  background-color: #242424;
+}
+
 #header-rs {
   padding: 20px 0;
-  border-bottom: 1px solid #EFEFF2;
+  background-color: #181818;
 }
 
 #header-rs a {
   font-size: 1rem;
-  color: black;
+  color: #EFEFF2;
   text-decoration: none;
   padding: 0 1.25rem;
   font-weight: bold;
@@ -38,7 +43,9 @@
 }
 
 #menu-principal {
-  padding: 10px 0;
+  border-top: 1px solid #EFEFF2;
+  border-bottom: 1px solid #EFEFF2;
+  background-color: #2D2D2D;
 }
 
 #menu {
@@ -51,11 +58,13 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 0;
+  margin: 20px 0;
 }
 
 #menu li a {
   text-decoration: none;
-  color: black;
+  color: #EFEFF2;
   font-size: 0.9rem;
   font-weight: bold;
 }
@@ -66,5 +75,11 @@
 
 #menu li a span {
   margin-right: 8px;
+}
+
+main {
+  background-color: #181818;
+  color: #EFEFF2;
+  padding: 40px 20px;
 }
 /*# sourceMappingURL=style.css.map */
