@@ -82,4 +82,60 @@ main {
   color: #EFEFF2;
   padding: 40px 20px;
 }
+
+.post-principal {
+  background-color: #242424;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.post-principal a {
+  text-decoration: none;
+  position: relative;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-principal a img {
+  width: 100%;
+}
+
+.post-principal a .header-pp {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0 20px;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(50%, rgba(0, 0, 0, 0.644678)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.644678) 50%, rgba(0, 0, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+.post-principal a .header-pp .post-categoria {
+  color: black;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.25rem;
+  background-color: #facd42;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.post-principal a .header-pp h3 {
+  font-size: 1.875rem;
+  line-height: 1;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.post-principal a .header-pp p {
+  color: white;
+  line-height: 1.1;
+}
 /*# sourceMappingURL=style.css.map */
