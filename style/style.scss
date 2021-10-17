@@ -225,3 +225,61 @@ main {
     
     
 }
+.titulo-categorias {
+    background-color: $rojo;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.categoria {
+    background-color: $gris;
+    padding: 5px;
+    margin: 15px 0;
+    border-radius: 3px;
+    a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        img {
+            width: 20%;
+            object-fit: cover;
+            max-height: 150px;
+            box-sizing: border-box;
+        }
+        div {
+            padding: 0 20px;
+            width: 80%;
+            box-sizing: border-box;
+            display: grid;
+            h5 {
+                font-size: 1.5em;
+                margin-bottom: 4px;
+                white-space: nowrap;
+                max-height: 8rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .fecha {
+                font-size: 0.8em;
+                margin: 0;
+            }
+            p {
+                padding: 8px 0;
+                overflow: hidden !important;
+                text-overflow: ellipsis;
+                display: block;
+                max-height: 8rem;
+                margin: 0;
+                white-space: nowrap;
+            }
+            .etiquetas {
+                background-color: $info;
+                padding: 3px;
+                font-size: 0.8em;
+                font-weight: bold;
+                align-self:baseline;
+                box-sizing: content-box;
+                width: fit-content;
+            }
+        }
+    }
+}
